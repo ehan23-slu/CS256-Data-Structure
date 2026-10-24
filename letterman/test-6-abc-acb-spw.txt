@@ -1,0 +1,6 @@
+3
+// stack & swap mode
+// word output mode 
+abc
+acb
+cab

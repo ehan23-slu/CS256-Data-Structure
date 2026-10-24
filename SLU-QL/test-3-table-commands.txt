@@ -1,0 +1,17 @@
+#Awesome Spec Example with Bugs!
+CREATE personData 2 string int name age
+CREATE incomeData 2 string int name money
+CREATE incomeData string boolean name money
+INSERT INTO person 3 ROWS
+Grace 10
+John 20
+Jenny 30
+INSERT INTO incomeData 3 ROWS
+Grace 10000
+Joe 20000
+Kelly 30000
+PRINT FROM incomeData 2 person WHERE Y/N = true
+JOINT personData AND incomeData WHERE name = name AND PRINT 3 name 1 age 1 money 2
+REMOVE personData
+REMOVE incomeData
+QUIT

@@ -1,0 +1,22 @@
+# Awesome Spec Example with Bugs!
+CREATE books 3 string double bool genre price in_stock?
+INSERT INTO books 8 ROWS
+fiction 19.99 true
+nonfiction 23.23 false
+fantasy 32.49 true
+horror 45.67 true
+horror 12.99 true
+romance 14.99 true
+sci-fi 29.49 true
+adventure 34.53 true
+DELETE FROM books WHERE price > 30
+GENERATE FOR books hash INDEX ON genre
+PRINT FROM books 2 genre price WHERE in_stock? = true
+CREATE stores 3 string bool bool name open_on_weekends? has_cafe?
+INSERT INTO stores 2 ROWS
+BarnesAndNoble true true
+LocalReads false false
+JOIN stores AND books WHERE open_on_weekends? = in_stock? AND PRINT 3 genre 1 genre 2 has_cafe? 1
+REMOVE stores
+REMOVE books
+QUIT

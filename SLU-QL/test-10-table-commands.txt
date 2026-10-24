@@ -1,0 +1,21 @@
+# Awesome Spec Example with Bugs!
+CREATE vehicles 5 string string bool double int type owner insured? mileage year
+INSERT INTO vehicles 4 ROWS
+sedan Smith true 45.76 2018
+truck Johnson false 120.32 2020
+motorcycle Taylor true 13.9 2021
+suv Carter true 98.45 2019
+compact Blake false 33.1 2023
+DELETE FROM vehicles WHERE owner = Bloke
+GENERATE FOR vehicles bst INDEX ON type
+PRINT FROM vehicles 2 owner type WHERE insured? = true
+CREATE repairs 5 string bool bool double int mechanic fast? reliable? cost parts
+INSERT INTO repairs 2 ROWS
+Mike true true 234.5 50
+Alan false false 350.7 75
+JOIN repairs AND vehicles WHERE mechanic = owner AND PRINT 3 mechanic 1 type 2 reliable? 1
+JOIN repairs AND vehicles WHERE cost = mileage AND PRINT 3 mechanic 1 type 2 reliable? 1
+JOIN repairs AND vehicles WHERE parts = year AND PRINT 3 mechanic 1 type 2 reliable? 1
+REMOVE repairs
+REMOVE vehicles
+QUIT

@@ -1,0 +1,25 @@
+#Awesome Spec Example with Bugs!
+CREATE items 3 string string int name category price
+INSERT INTO items 8 rows
+lamp decor 25
+sofa furniture 300
+pen stationery 2
+book literature 15
+mirror decor 50
+chair furniture 75
+tablet electronics 250
+rug decor 80
+PRINT FROM items 2 name category WHERE price > 50
+GENERATE FROM items bst INDEX ON category
+PRINT FROM items 1 category WHERE category < furniture
+CREATE items2 2 string int item price
+INSERT INTO items2 4 ROWS
+lamp 25
+mirror 50
+rug 80
+pen 2
+JOIN items AND items2 WHERE name = item AND PRINT 2 name 1 category 2
+UNKNOWN COMMAND
+REMOVE items
+REMOVE items2
+QUIT

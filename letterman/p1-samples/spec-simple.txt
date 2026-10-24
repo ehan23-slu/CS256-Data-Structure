@@ -1,0 +1,14 @@
+10
+// Just a short example dictionary, all words of the same length.
+// Although these words are in alphabetical order, that is not
+// required.
+chip
+chop
+junk
+leet
+let
+shin
+ship
+shop
+shot
+stop

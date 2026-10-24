@@ -1,0 +1,30 @@
+#Awesome Spec Example with Bugs!
+CREATE products 2 string bool name in_stock?
+INSERT INTO products 11 ROWS
+laptop true
+phone false
+charger false
+keyboard true
+mouse true
+tablet false
+monitor false
+printer false
+desk true
+lamp true
+pen false
+DELETE FROM products WHERE in_stock? = false
+INSERT INTO products 3 ROWS
+eraser flase
+notebook true
+marker true
+PRINT FROM products 1 product WHERE product > laptop
+CREATE electronic_products 2 string bool product is_electronic?
+INSERT INTO electronic_products 4 ROWS
+laptop true
+pen false
+speaker true
+printer false
+JOIN products AND electronic_products WHERE name = product AND PRINT 2 names 1 is_electronic 2
+REMOVE products
+REMOVE electronic_products
+QUIT

@@ -1,0 +1,6 @@
+3
+// length mode
+// using stack & word output mode
+rain
+ruin
+run

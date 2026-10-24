@@ -1,0 +1,9 @@
+5
+// begin word: skip
+// end word: sky
+// change & length mode with Morph output
+skip
+slap
+ski
+sky
+shy

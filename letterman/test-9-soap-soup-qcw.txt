@@ -1,0 +1,8 @@
+5
+// queue & change mode
+// with word output
+slip
+soul
+soap
+soil
+soup

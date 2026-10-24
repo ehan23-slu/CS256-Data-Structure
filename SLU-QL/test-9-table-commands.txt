@@ -1,0 +1,12 @@
+# Awesome Spec Example with Bugs!
+CREATE animals 5 string string bool double int mood caretaker vaccinated weight age
+INSERT INTO animals 5 ROWS
+calm Alex true 45.67 5
+anxious students false 45.67 6
+energetic staff true 345.2 5
+nervous Ben true 25.3 245
+GENERATE FOR animals bst INDEX ON mood
+PRINT FROM animals mood caretaker WHERE mood = anxious
+GENERATE FOR animals hash INDEX ON mood
+PRINT FROM animals 2 mood caretaker WHERE mood = anxious
+QUIT

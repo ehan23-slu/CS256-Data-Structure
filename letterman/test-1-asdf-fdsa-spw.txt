@@ -1,0 +1,10 @@
+7
+// asdf to fdsa stack mode with swaps only
+// asdf -> sadf -> sdaf -> sdfa -> sfda -> fsda -> fdsa
+asdf
+sadf
+sdaf
+sdfa
+sfda
+fsda
+fdsa

@@ -1,0 +1,22 @@
+#Awesome Spec Example!
+CREATE 256class 3 string string bool emotion person Y/N
+INSERT INTO 256class 8 ROWS
+happy Angstadt true
+stressed students false
+busy student_hours true
+stressed students true
+stressed Harcourt true
+happy Angstadt true
+happy Sith true
+victorious Sith true
+DELETE FROM 256class WHERE person = Angstadt
+GENERATE FOR 256class hash INDEX ON emotion
+PRINT FROM 256class 2 person emotion WHERE Y/N = true
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+INSERT INTO pets 2 ROWS
+Sith true true
+Harcourt false false
+JOIN pets AND 256class WHERE Name = person AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+REMOVE pets
+REMOVE 256class
+QUIT

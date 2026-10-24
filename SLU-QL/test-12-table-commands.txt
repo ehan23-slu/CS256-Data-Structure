@@ -1,0 +1,16 @@
+# AWESOME BUG FILE
+CREATE library 2 string int title year
+INSERT INTO library 8 ROWS
+BookA 1999
+BookB 2001
+BookC 2010
+BookD 1995
+BookE 2020
+BookF 1988
+BookG 2005
+BookH 2000
+PRINT FROM library 1 year WHERE year > 2000
+DELETE FROM library WHERE year = 2000
+DELETE FROM library WHERE title = BookE
+PRINT FROM library 2 title year ALL
+QUIT

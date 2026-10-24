@@ -1,0 +1,6 @@
+Comment: Tie each others
+MODE: DL
+NUM_GENERALS: 3
+NUM_PLANETS: 2
+0 SITH G0 P0 F100 #50
+1 JEDI G1 P0 F100 #50

@@ -1,0 +1,26 @@
+#Awesome Spec Example with Bugs!
+CREATE fruits 2 string bool fruit sweet?
+INSERT INTO fruit 6 rows
+apple true
+banana false
+cherry true
+grape true
+orange false
+kiwi false
+GENERATE FOR fruits hash index on fruit
+GENERATE FOR fruits bst index on fruit
+PRINT FROM fruits 1 fruit WHERE sweet? < true
+PRINT FROM fruits 1 fruit WHERE fruit > cherry
+CREATE tropical_fruits 2 string bool fruit tropical?
+INSERT INTO tropical_fruits 3 rows
+mango ture
+pineapple false
+banana false
+DELERE FROM fruits WHERE fruit > orange
+GENERATE FOR tropical_fruits hash index on tropical?
+DELETE FROM tropical_fruits WHERE random > 6
+JOIN fruits AND tropical_fruits WHERE sweet? < tropical? AND PRINT 1 fruit 1
+REMOVE fruits
+REMOVE exotic_fruits
+REMOVE tropical_fruits
+QUIT

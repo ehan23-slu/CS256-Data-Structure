@@ -1,0 +1,6 @@
+3
+// queue & swap mode
+// in word output
+ABC
+AC
+BAC

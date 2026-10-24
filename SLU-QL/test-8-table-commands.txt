@@ -1,0 +1,26 @@
+#Awesome Spec Example with Bugs!
+CREATE animals 5 string string bool double int mood owner is_available weight age
+INSERT INTO animals 5 ROWS
+calm Alex true 12.3 5
+playful Emma false 14.6 2
+hungry John true 25.7 8
+anxious Mia true 18.4 6
+angry Sarah false 20.9 3
+DELETE FROM animals WHERE owner = Sarah
+GENERATE FOR animals hash INDEX ON mood
+PRINT FROM animals 2 owner mood WHERE is_available = ture
+CREATE toys 5 string bool bool double int Name safe_for_kids? durable? weight durability_score
+INSERT INTO toys 3 ROWS
+ball true true 1.2 100
+teddy false false 3.4 200
+rope true true 2.5 150
+JOIN toys AND animals WHERE Name = owner AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE Name > mood AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE safe_for_kids? > is_available AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE weight = weight AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE weight < weight AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE durability_score = age AND PRINT 3 Name 1 mood 2 durable? 1
+JOIN toys AND animals WHERE durability_score < age AND PRINT 3 Name 1 mood 2 durable? 1
+REMOVE toys
+REMOVE animals
+QUIT

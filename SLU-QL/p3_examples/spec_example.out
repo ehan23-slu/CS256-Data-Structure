@@ -1,0 +1,21 @@
+% % New table 256class with column(s) emotion person Y/N created
+% Added 8 rows to 256class from position 0 to 7
+% Deleted 2 rows from 256class
+% Created hash index for table 256class on column emotion
+% person emotion
+student_hours busy
+students stressed
+Harcourt stressed
+Sith happy
+Sith victorious
+Printed 5 matching rows from 256class
+% New table pets with column(s) Name likes_cats? likes_dogs? created
+% Added 2 rows to pets from position 0 to 1
+% Name emotion likes_dogs?
+Sith happy true
+Sith victorious true
+Harcourt stressed false
+Printed 3 rows from joining pets to 256class
+% Table pets deleted
+% Table 256class deleted
+% Goodbye, SLU!

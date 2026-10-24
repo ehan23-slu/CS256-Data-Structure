@@ -1,0 +1,7 @@
+COMMENT: Testing null or empty general scenarios
+MODE: DL
+NUM_GENERALS: 3
+NUM_PLANETS: 2
+0 SITH G0 P0 F1 #10000000
+1 JEDI G1 P0 F1 #1
+2 SITH G2 P0 F100 #50

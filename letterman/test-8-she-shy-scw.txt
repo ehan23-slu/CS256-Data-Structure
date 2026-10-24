@@ -1,0 +1,8 @@
+5
+// stack & change mode
+// with word output
+sail
+she
+shy
+ski
+skip

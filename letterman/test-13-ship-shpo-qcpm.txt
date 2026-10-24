@@ -1,0 +1,8 @@
+4
+// begin: ship
+// end: shpo
+// change & swap mode with
+ship
+shop
+chip
+shpo

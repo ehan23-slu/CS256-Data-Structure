@@ -1,0 +1,8 @@
+5
+// ship to shop stack mode with change mode
+// also word output
+ship
+shop
+stop
+shin
+shot

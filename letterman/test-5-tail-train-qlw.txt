@@ -1,0 +1,6 @@
+3
+// queue & word output modes
+// allows length only
+tail
+trail
+train

@@ -1,0 +1,25 @@
+#Awesome Spec Example with Bugs!
+CREATE animals 2 string string animal habitat
+INSERT INTO animals 5 rows
+tiger jungle
+eagle mountain
+salmon river
+kangaroo desert
+penguin arctic
+PRINT FROM animals 1 habitat ALL
+CREATE animals 2 string string animal habitat
+GENERATE FOR animals bst index on ferocity?
+PRINT FROM animals 2 animal habitat WHERE habitat > b
+CREATE plants 2 string string plant habitat
+INSERT INTO plants 5 ROWS
+oak forest
+cactus desert
+lily pond
+rose garden
+bamboo forest
+GENERATE FOR plants bst index on plant
+DELETE FROM plants WHERE plant < b
+JOIN animals AND plants WHERE habitat = habitat AND PRINT 2 animal 1 plant 2
+REMOVE animals
+REMOVE plants
+QUIT

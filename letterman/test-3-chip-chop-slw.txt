@@ -1,0 +1,11 @@
+7
+// chip to chop stack mode
+// with change and length modes
+// also word output
+chip
+chop
+junk
+leet
+let
+shin
+ship
